@@ -115,6 +115,19 @@
           "type": "ruby"
         },
         {
+          "background": "#4063D8",
+          "foreground": "#ffffff",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b6",
+          "properties": {
+            "display_mode": "files",
+            "fetch_version": true
+          },
+          "style": "powerline",
+          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} php ",
+          "type": "php"
+        },
+        {
           "background": "#FEAC19",
           "foreground": "#ffffff",
           "invert_powerline": true,
